@@ -1,0 +1,75 @@
+.container{
+    padding: 1.5rem;
+}
+
+.section {
+    padding: 1.5rem;
+}
+.card {
+    height: 100%; /* Asegura que todas las tarjetas tengan la misma altura */
+    display: flex;
+    flex-direction: column; /* Permite que el contenido se ajuste verticalmente */
+}
+.card-img-top {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+    flex-grow: 1; /* Permite que la imagen ocupe el espacio disponible */
+}
+.card-body {
+    flex-grow: 1; /* Permite que el cuerpo de la tarjeta ocupe el espacio restante */
+    display: flex;
+    flex-direction: column; /* Alinea el texto verticalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves para el efecto hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la tarjeta al pasar el mouse */
+    box-shadow: 0 4px 20px rgb(66, 61, 62); /* Sombra alrededor de la tarjeta */
+}
+
+
+h2 {
+    font-family: "Dancing Script", sans-serif;
+    letter-spacing: 1px;
+    font-size: 2.3rem;
+}
+h3 {
+    font-family: "Lora", sans-serif;
+    font-size: 1rem;
+}
+body {
+    background-color: #26312f80;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #40495a;
+}
+main {
+    text-align: center;
+}
+.footer {
+    color: #aeaeae;
+    padding: 20px;
+    text-align: center;
+}
+.footer-links a {
+    margin: 0 10px;
+    color: #3d4750;
+    text-decoration: none;
+    transform: color 0.2s ease;
+}
+.footer-links a:hover {
+    color: #33393d;
+}
+.footer-copyright {
+    font-size: 14px;
+    color: #666;
+}
+.bi {
+    font-size: 18px;
+    margin-right: 5px;
+}
